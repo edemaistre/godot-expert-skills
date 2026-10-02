@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.DS_Store
+_versions/
+versions/
+archive/
+_*.md
+
+# Downloaded on demand by godot-expert/scripts/gd_env.py
+godot-expert/assets/cache/
+
+# Godot project noise (not expected in these folders; defensive)
+.godot/
+.import/
+*.translation
+export_presets.cfg
+.agent_out/
+
+# Secrets and signing material (never publish)
+*.keystore
+*.jks
+*.p12
+*.mobileprovision
+.env
+.env.*
